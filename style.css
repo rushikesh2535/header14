@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #2C1C94;
+}
+
+.main{
+    width: 70%;
+    height: 100vh;
+    margin-left: 18%;
+    margin-right: 18%;
+    margin-top: 4%;
+    
+    
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.nav-name{
+    color: white;
+    font-size: 1.5rem;
+}
+
+.nav-text a{
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    margin-left: 2rem;
+    margin-right: 1rem;
+}
+
+.nav-text button{
+    margin-left: 2rem;
+    background-color: #E93E7E;
+    border: none;
+    color: white;
+    border-radius: 15px;
+    padding: 7px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.opacity{
+    opacity: 0.5;
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 6rem;
+}
+
+.content-text-bold{
+    font-size: 4rem;
+    font-weight: 700;
+    color: white;
+    margin-top: 1.5rem;
+    
+}
+
+.content-text-small{
+    font-size: 1.2rem;
+    color: white;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    
+}
+
+.content-text-small p{
+    margin-top: 2px;
+}
+
+.content-text button{
+    background-color: #E93E7E;
+    border: none;
+    color: white;
+    border-radius: 15px;
+    padding: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.signin{
+    background-color: white;
+    border-radius: 5px;
+    height: 500px;
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-heading{
+    color: #2C1C94;
+    font-size: 2rem;
+}
+
+.input{
+    
+    border-radius: 20px;
+    padding-left: 10px;
+    border: 1px solid #D8DDE9;
+    display: block;
+    margin-top: 1.5rem;
+    height: 30px;
+    width: 60%;
+}
+
+.line{position: relative;
+    margin-top: 1.5rem;
+    opacity: 0.2;
+    font-size: 0.85rem;
+}
+
+.line::before{
+    content: "";
+    width: 120px;
+    height: 1px;
+    display: block;
+    background: black;
+    position: absolute;
+    top: 50%;
+    right: 1rem;
+}
+
+.line::after{
+    content: "";
+    width: 120px;
+    height: 1px;
+    display: block;
+    background: black;
+    position: absolute;
+    top: 50%;
+    left: 1rem;
+}
+
+.checkbox{
+    display: flex;
+    margin-top: 1.5rem;
+    margin-right: 70px;
+    accent-color: aquamarine;
+    font-size: 20px;
+}
+
+
+
+.form-text{
+    opacity: 0.5;
+    margin-left: 4px;
+}
+
+.form-heading{
+    margin-top: 3rem;
+}
+
+
+.form-text{
+    font-size: 0.85rem;
+}
+
+.signin-btn{
+    margin-top: 1.5rem;
+    height: 35px;
+    width: 60%;
+    border-radius: 20px;
+    border: none;
+    background-color: #4a2eff;
+    color: white;
+}
+
+.login-btn{
+    margin-top: 1.5rem;
+    height: 35px;
+    width: 60%;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(0, 183, 255);
+    color: white;
+}
+
+.text-end{
+    font-size: 0.75rem;
+    margin-top: 2rem;
+    color: #9ca0a7;
+}
+
+.text-end a{
+    text-decoration: none;
+    color: rgb(103, 255, 204);
+    font-weight: bold;
+    
+}
+
